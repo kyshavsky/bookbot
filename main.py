@@ -18,9 +18,9 @@ def main():
 
     for item in sorted_chars:
         char = item["char"]
-        if not char.isaplha():
+        if not char.isalpha():
             continue
-        num =item["num"]
+        num = item["num"]
         print(f"{char}: {num}")
 
 
